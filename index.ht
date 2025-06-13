@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Digital Business Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .photo {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0077b6;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin: 0.3rem 0;
+      font-size: 1.6rem;
+      color: #222;
+    }
+
+    p.title {
+      margin: 0;
+      color: #0077b6;
+      font-weight: 500;
+    }
+
+    .contact {
+      margin: 1.2rem 0;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .socials {
+      margin-top: 1rem;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077b6;
+      font-size: 1.4rem;
+      transition: color 0.3s;
+    }
+
+    .socials a:hover {
+      color: #023e8a;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #999;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="card">
+    <img src="your-photo.jpg" alt="Your Name" class="photo" />
+    <h1>Your Name</h1>
+    <p class="title">Your Profession or Tagline</p>
+
+    <div class="contact">
+      📧 your.email@example.com<br/>
+      📞 (123) 456-7890<br/>
+      📍 Your City, Country
+    </div>
+
+    <div class="socials">
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <footer>
+      &copy; 2025 Your Name
+    </footer>
+  </div>
+</body>
+</html>
